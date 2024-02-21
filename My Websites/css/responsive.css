@@ -1,0 +1,139 @@
+
+  @media(max-width:770px){
+    .nav-Img::before{
+      display: none;
+    }
+
+    section#navbar {
+      width: 700px;
+     /* background: blue;*/
+      height: 700px;
+      position: relative;
+  }
+
+  section#navbar nav {
+    position: fixed;
+    width: 700px;
+  /*  background: aliceblue;*/
+    height: auto;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo img {
+  position: relative;
+  left: -70px;
+}
+
+ .List .dis {
+  display: none;
+}
+.List .dis.active{
+  display: block;
+ }
+section#navbar nav i.fa-bars {
+  display: block;
+  top: -50px;
+  font-size: 40px;
+}
+
+.nav-content {
+  width: 700px;
+}
+
+.nav-Img {
+  top: 0;
+  left: 0;
+}
+
+.nav-Img img {
+  position: relative;
+  top: -80px;
+  left: -370px;
+  border-radius: inherit;
+  width: 250px;
+  height: 250px;
+}
+
+button.expl-Btn {
+  top: 320px;
+  left: -90px;
+}
+
+button.hireBtn {
+  top: 320px;
+  left: -77px;
+}
+
+.nav-content small {
+  position: absolute;
+  top: 560px;
+  font-size: 15px;
+}
+
+.nav-content p {
+  position: absolute;
+  top: 500px;
+}
+
+.nav-content h1 {
+  position: absolute;
+  top: 460px;
+  font-size: 22px;
+}
+
+button.wlc {
+  top: 60px;
+}
+
+  }
+
+  @media(max-width:770px){
+    section#about {
+      width: 770px;
+      height: 130vh;
+   /*   background: antiquewhite;*/
+  }
+    .about-Img {
+      width: 100%;
+      top: 0;
+      left: 85px;
+    position: relative;
+  }
+  .about-Img img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+  .about-Content {
+      width: 100%;
+      top: 140px;
+    left: -310px;
+  }
+  .about-Content h1 {
+    font-size: 15px;
+    left: 35px;
+}
+  .about-Content button {
+      width: 80px;
+      font-size: 14px;
+      left: 34px;
+      height: 30px;
+  }
+  .about-Content p.one {
+    left: 35px;
+    font-size: 14px;
+}
+.about-Content p.two {
+  left: 35px;
+  font-size: 14px;
+  top: 80px;
+}
+button.Downlod-cv {
+  font-size: 15px;
+  width: 95px;
+}
+
+  }
